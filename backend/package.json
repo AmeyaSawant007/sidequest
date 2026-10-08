@@ -1,0 +1,23 @@
+{
+  "name": "sidequest-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node test-flow.js",
+    "ledger-check": "node scripts/ledger-check.js"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "express": "4.21.2",
+    "node-gyp": "^13.1.0",
+    "rebuild": "^0.1.2"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+sidequest.db
+sidequest.db-wal
+sidequest.db-shm
+.DS_Store
+*.log
